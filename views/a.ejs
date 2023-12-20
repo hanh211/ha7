@@ -19,7 +19,7 @@
         let images = [];
 
         // fetch('http://localhost:3000/images')
-        fetch('http://hanh211.github.io/ha7/images')
+        fetch('https://hanh211.github.io/ha7/images')
           .then(function(response){
             return response.json();
           })
@@ -37,7 +37,7 @@
         let nextButton = document.getElementById("next");
         nextButton.addEventListener("click", e => {
           // fetch('http://localhost:3000/detect')
-          fetch('http://hanh211.github.io/ha7/images')
+          fetch('https://hanh211.github.io/ha7/images')
             .then(function(response){
               return response.json();
             })
