@@ -1,7 +1,10 @@
-const server=require('express');
+const express=require('express');
 const bodyParser=require('body-parser');
 const {spawn}=require('child_process');
-const app=server();
+const app=express();
+app.use(express.static("views"));
+const server=require("http").Server(app);
+const io=require("socket.io")(server);
 const port=process.env.PORT || 3000;
 app.set("view engine","ejs");
 app.use(bodyParser.json());
