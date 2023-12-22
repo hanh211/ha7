@@ -5,7 +5,7 @@ const app=express();
 app.use(express.static("views"));
 const server=require("http").Server(app);
 const io=require("socket.io")(server);
-const port=process.env.PORT || 3000;
+const port=process.env.PORT || 3000 || "http://example.com/views/index.ejs";
 app.set("view engine","ejs");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
