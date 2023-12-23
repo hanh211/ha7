@@ -4,7 +4,7 @@
   "description": "",
   "main": "a.js",
   "scripts": {
-    "deploy": "npx gh-pages -d ."
+    "deploy": "npx gh-pages -d .",
   },
   "repository": {
     "type": "git",
