@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "a.js",
-  "homepage": "https://github.com/hanh211/ha7/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d views"
+    "deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
