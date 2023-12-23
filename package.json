@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "a.js",
+  "homepage": "https://github.com/hanh211/ha7/",
   "scripts": {
     "deploy": "npx gh-pages -d .",
   },
