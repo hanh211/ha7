@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "a.js",
+  "homepage": "https://hanh211.github.io/ha7/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,7 @@
     "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "gh-pages": "^6.1.0",
     "socket.io": "^4.7.2"
   }
 }
