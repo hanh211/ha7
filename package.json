@@ -1,5 +1,5 @@
 {
-  "name": "ha9",
+  "name": "ha7",
   "version": "1.0.0",
   "description": "",
   "main": "a.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hanh211/ha9.git"
+    "url": "git+https://github.com/hanh211/ha7.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hanh211/ha9/issues"
+    "url": "https://github.com/hanh211/ha7/issues"
   },
-  "homepage": "https://github.com/hanh211/ha9#readme",
+  "homepage": "https://github.com/hanh211/ha7#readme",
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.18.2",
